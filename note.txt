@@ -1,0 +1,26 @@
+- ctrl+shift+b -> task.json -> cmd: tsc --init
+hoisting l� c� th? khai b�o ? d�?i khi m� ? tr�n �? g?i �?n n�
+- c� th? khai b�o bi?n var trong , tr�n or d�?i h�m
+- t? kh�a let : ph?m vi trong block, kh?i, trong if, foreach, for... kh�ng h? tr? hoisting-> let ch?t ch? h�n var
+- let : kh�ng cho khai b�o l?i. n?u �? khai b�o r?i m� trong kh?i g�n l?i th? n� k nh?n k?t qu? g�n l?i
+- let trong for:
+- t? kh�a const: kh�ng h? tr? hoisting, kh�ng th? g�n l?i gi� tr? m?i, b?t bu?c ph?i g�n tr? khi khai b�o, 
+v?i ki?u obj khi khai b�o r?i m� mu?n khai b�o l?i th? : obj.name = ".." -> th? ��?c c?n n?u obj(name= "..") kh�ng ��?c
+- c�c ki?u d? li?u trong typescript:"tenbien: tenkieu" m?c �?nh l� ki?u any(ki?u �?ng)-> g�n v?i ki?u n�o th? l� ki?u ��
++ boolean : 
++ ki?u number : 
++ ki?u string
++ ki?u array: tenbien: tenmang[] ho?c tenbien:array[]
++ enum:
++eny
++void: kh�ng tr? v? g?
++ never: 
++ pull:
+- arrow function:c�ch vi?t function d?ng ng?n: " () "-> vi?t t?t c?a function, "=>" vi?t t?t c?a return 
+- t? kh�a this: this s? d?ng trong 1 context n?u context ngo�i kh�ng khai b�o th? n� k ch?y context ngo�i
+- gi� tri m?c �?nh cho tham s? c?a function:
+- rest parameter: có dấu ... trước tên biến và kiểu mảng [] 
+- spread parameter: chức năng ngược với rest parameter -> take giá trị biến mảng và bóc tách ra thành các tham số độc lập
+- bóc tách array: chuyển mảng thành các phần tử độc lập 11
+- bóc tách obj(12)
+- string template:(13): dùng cặp nháy `` viết như thế nào hiển thị như thế
